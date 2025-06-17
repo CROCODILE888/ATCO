@@ -1,14 +1,14 @@
-import React from "react";
-
 export const Team = (props) => {
   return (
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          <p style={{ color: "black", backgroundColor: "rgba(0, 0, 0, 0.05)", borderRadius: "10px", padding: "20px", fontSize: "1.3em", fontWeight: "500" }}>
+            We are a father-son duo passionate about delivering quality and trust.<br />
+            My father brings decades of experience, dedication, and a strong local presence,
+            while I contribute with modern solutions, technology, and fresh energy.<br />
+            Together, we blend tradition with innovation to serve our customers better every day.
           </p>
         </div>
         {/* <div id="row"> */}

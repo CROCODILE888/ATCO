@@ -1,36 +1,35 @@
 import { Image } from "./image";
-import React from "react";
 
 export const Gallery = (props) => {
   return (
-    <div id="portfolio" className="text-center">
+    <div id="products" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Products</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Here are some of our top-selling products.
           </p>
         </div>
         <div className="row">
           <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
-                  </div>
-                ))
+                <div
+                  key={`${d.title}-${i}`}
+                  className="col-sm-6 col-md-4 col-lg-3"
+                  style={{ boxShadow: "initial" }}
+                >
+                  <Image
+                    title={d.title}
+                    image={d.image}
+                  />
+                </div>
+              ))
               : "Loading..."}
           </div>
         </div>
       </div>
+      <hr style={{ width: "80%", marginBottom: 0 }} />
     </div>
   );
 };

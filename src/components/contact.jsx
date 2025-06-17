@@ -1,30 +1,27 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
 
 const initialState = {
   name: "",
   email: "",
+  title: "",
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, title, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+    console.log(name, email, title, message);
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_iubgvs6", "template_v5vh0t5", e.target, "_fVz-_8r4KVh0FQ2f")
       .then(
         (result) => {
           console.log(result.text);
@@ -78,6 +75,20 @@ export const Contact = (props) => {
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="title"
+                        name="title"
+                        className="form-control"
+                        placeholder="Subject"
+                        required
+                        onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
                 </div>
                 <div className="form-group">
                   <textarea
@@ -125,23 +136,30 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
+          <div className="map-embed" style={{ marginTop: "40px" }}>
+            <iframe
+              title="Google Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2928896092653!2d73.85892539999999!3d18.515662000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06f25555555%3A0x2e5e739263a77fc4!2sAli%20Trading%20Co.!5e0!3m2!1sen!2sin!4v1750056476014!5m2!1sen!2sin"
+              width="100%" height="300" style={{ borderRadius: "20px" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
           <div className="col-md-12">
             <div className="row">
               <div className="social">
                 <ul>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fa fa-whatsapp"></i>
+                    </a>
+                  </li>
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
@@ -153,9 +171,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; 2025 Ali Trading Co. All Rights Reserved. Developed by{" "}
+            <a href="https://tahas-portfolio-react.netlify.app/" rel="nofollow" target="_blank">
+              <strong>Taha Lokhandwala</strong>
             </a>
           </p>
         </div>

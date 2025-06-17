@@ -1,100 +1,116 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Ali Trading Co.",
+    "paragraph": "Trusted hardware wholesaler in Pune."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Ali Trading Co. is a trusted name in Pune for all kinds of hardware and construction material needs. With years of experience and a strong customer-first approach, we provide high-quality post box, furniture fittings, cloth drying racks, curtain rods and sockets, Ganpati mandaps, and more — all under one roof. Whether you're a contractor, builder, or homeowner, we aim to be your reliable local hardware partner.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Wide range of branded hardware products",
+      "Experienced staff with technical knowledge",
+      "Affordable pricing and bulk order support",
+      "One-stop shop for construction and home needs"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Trusted by contractors and homeowners alike",
+      "Located conveniently in the heart of Pune",
+      "Quick service and personalized attention",
+      "Open all days for your convenience"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Cloth Drying Rack (Full System)",
+      "image": "img/portfolio/cloth-rack4.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Cloth Drying Rack (Individual Pipe)",
+      "image": "img/portfolio/cloth-rack3.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Cloth Drying Rack (Foldable Stand)",
+      "image": "img/portfolio/cloth-rack1.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Letter Box",
+      "image": "img/portfolio/letter-box.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Stainless steel Pipe",
+      "image": "img/portfolio/ss-pipe.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Hinges",
+      "image": "img/portfolio/hinges.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Floor Spring",
+      "image": "img/portfolio/floor-spring.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Bed Fitting",
+      "image": "img/portfolio/bed-fitting.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Curtain Bracket",
+      "image": "img/portfolio/l-bracket.jpg"
+    },
+    {
+      "title": "Double Support for Curtain Rod",
+      "image": "img/portfolio/double-support.jpg"
+    },
+    {
+      "title": "Curtain Sockets",
+      "image": "img/portfolio/curtain-sockets.jpeg"
+    },
+    {
+      "title": "Telescopic Channel",
+      "image": "img/portfolio/telescopic-channel.jpeg"
+    },
+    {
+      "title": "Pedestal Lock",
+      "image": "img/portfolio/pedestal-lock-round.jpeg"
+    },
+    {
+      "title": "Cam Lock",
+      "image": "img/portfolio/cam-lock.jpeg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Ebco",
+      "text": "Office Furniture Fittings, Window, Door & Glass Hardware, Drawer Slides and Hinges, Furniture Locks.",
+      "image": "img/brands/ebco-logo.png"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/brands/dorset-logo.png",
+      "name": "Dorset",
+      "text": "High-end architectural hardware and locking solutions for residential and commercial use."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/brands/godrej-logo.png",
+      "name": "Godrej",
+      "text": "Trusted locks, security systems, and furniture hardware from a legacy Indian brand."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/brands/ebco-logo.png",
+      "name": "Target",
+      "text": "A sister brand to Ebco, providing reliable and affordable hardware solutions."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/brands/zipco-logo.png",
+      "name": "Zipco",
+      "text": "Drawer Slides & Hinges, Castors, Locks, General Hardware & Accessories, Window & Door Fittings, etc."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/brands/nandu-logo.png",
+      "name": "Nandu",
+      "text": "Revolving plates, sofa/bed fitting, gas spring, Aluminum table rotating ring, Folding wall bed, etc."
+    },
+    {
+      "image": "img/brands/hemco-logo2.png",
+      "name": "Hemco",
+      "text": "Door closers, floor springs , General Hardware & Accessories, etc."
     }
   ],
   "Testimonials": [
@@ -137,37 +153,38 @@
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Taha Lokhandwala"
+      "name": "Taha Lokhandwala",
+      "job": "Technical Head"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "883, BUDHWAR PETH, SHOP NO 2, GUJARAT LODGE PUNE 411002",
+    "phone": "+91 9371051752",
+    "email": "alitradingco52@gmail.com",
+    "whatsapp": "https://wa.me/9371051752",
+    "facebook": "https://m.me/shabbir.lokhandwala.520/",
+    "instagram": "https://instagram.com/lokhandwala675"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-thumbs-up",
+      "title": "Trusted Quality",
+      "text": "We believe in offering only the best. Every product is handpicked and quality-checked to ensure customer satisfaction."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-users",
+      "title": "Personalized Service",
+      "text": "Being a family-run business, we understand the value of personal touch. Our customers are our community."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-truck",
+      "title": "Quick & Easy Access",
+      "text": "We’re just around the corner! Fast availability and local convenience make us your go-to choice."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-star",
+      "title": "Years of Experience",
+      "text": "With decades of hands-on experience, we provide the right guidance and reliable products every time."
     }
   ]
 }

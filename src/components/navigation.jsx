@@ -1,4 +1,4 @@
-import React from "react";
+import logo from "../logo.png"; // Import the logo
 
 export const Navigation = (props) => {
   return (
@@ -17,9 +17,12 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+          <a className="navbar-brand page-scroll" href="#page-top"
+            style={{ display: "flex", alignItems: "center" }}
+          >
+            <img src={logo} className="logo" alt="Ali Trading Co. Logo" width="65" height="65" style={{ marginRight: "10px", borderRadius: "16%" }} />
+            ATCO
+          </a>
         </div>
 
         <div
@@ -38,20 +41,20 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
-                Services
+              <a href="#brands" className="page-scroll">
+                Brands
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
+              <a href="#products" className="page-scroll">
+                Products
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#team" className="page-scroll">
                 Team
