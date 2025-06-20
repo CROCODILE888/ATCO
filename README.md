@@ -1,6 +1,6 @@
 # 🛠️ Ali Trading Co. – Hardware & Construction Material Store
 
-Welcome to the official website of **Ali Trading Co.**, your one-stop shop in Pune for high-quality hardware, plumbing, electrical fittings, and construction materials.
+Welcome to the official website of **Ali Trading Co.**, your one-stop shop in Pune for high-quality hardware, furniture fittings, mandap fittings, and construction materials.
 
 ## 🌐 Live Site
 
@@ -8,7 +8,7 @@ Welcome to the official website of **Ali Trading Co.**, your one-stop shop in Pu
 
 ## 📸 Screenshot
 
-![Website Screenshot](public/img/ATCO Demo.png)
+![Website Screenshot](ATCO-Demo.png)
 
 ## 🧰 Tech Stack
 
