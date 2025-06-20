@@ -1,34 +1,49 @@
-# React JS Landing Page Template
+# 🛠️ Ali Trading Co. – Hardware & Construction Material Store
 
-**
+Welcome to the official website of **Ali Trading Co.**, your one-stop shop in Pune for high-quality hardware, plumbing, electrical fittings, and construction materials.
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+## 🌐 Live Site
 
-**
+👉 [Visit Website](https://ali-trading-company.vercel.app/)
 
+## 📸 Screenshot
 
-### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
+![Website Screenshot](public/img/ATCO Demo.png)
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
+## 🧰 Tech Stack
 
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
+- **Frontend**: ReactJS
+- **Email Handling**: EmailJS
+- **Styling**: Bootstrap + Custom CSS
+- **Icons**: Font Awesome
 
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
-If you need the contact form to work, you also need to create an EmailJS account, and modify the ```src/components/contact.jsx``` file to replace your own service ID, template ID and Public Key
+## ✨ Features
 
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+- Contact form with EmailJS integration
+- Google Maps & business link integration
+- Brand showcase with logos
+- Fully responsive layout
+- Clean UI for hardware product presentation
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+## 🏷️ Brands We Deal In
 
-##### Issaaf kattan
+- Ebco
+- Godrej
+- Dorset
+- Zipco
+- Target
+- Nandu
+
+## 📬 Contact
+
+You can get in touch via the contact form or visit us through our Google business listing:
+
+📍 [Ali Trading Co. on Google](https://g.co/kgs/beugCZi)
+
+---
+
+### 🧑‍💼 About Us
+
+Ali Trading Co. is a trusted name in Pune for all kinds of hardware and construction material needs. Whether you're a contractor, builder, or homeowner, we aim to be your reliable local hardware partner.
+
+---
