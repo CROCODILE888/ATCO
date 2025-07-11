@@ -10,6 +10,7 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import SeoHeader from "./components/SeoHeader";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -25,6 +26,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
+      <SeoHeader />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />

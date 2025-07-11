@@ -1,4 +1,14 @@
 {
+  "SeoRelated": {
+    "Live-Url": "https://ali-trading-company.vercel.app/",
+    "openingHours": "Mo-Su 09:00-20:00",
+    "availableLanguages": [
+      "English",
+      "Marathi",
+      "Hindi"
+    ],
+    "headerTitle": "Ali Trading Co. - Trusted Hardware Wholesaler in Pune"
+  },
   "Header": {
     "title": "Ali Trading Co.",
     "paragraph": "Trusted hardware wholesaler in Pune."
